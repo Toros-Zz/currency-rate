@@ -1,0 +1,17 @@
+.StaticConvertedCurrency {
+  display: flex;
+  gap: 16px;
+
+  padding: 4px;
+  border-radius: 5px;
+  border: 1px solid silver;
+}
+
+.StaticConvertedCurrency__item {
+  display: flex;
+  gap: 4px;
+}
+
+.StaticConvertedCurrency__value {
+  font-weight: 400;
+}

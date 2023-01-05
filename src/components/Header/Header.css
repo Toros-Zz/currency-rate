@@ -1,0 +1,17 @@
+.Header {
+  background-color: rgb(255, 255, 255);
+  padding: 16px;
+  min-height: 60px;
+  border-bottom: 1px solid rgb(163, 163, 163);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Header__liItem {
+  display: flex;
+}
+
+.Header__liItem:first-of-type {
+  margin-bottom: 4px;
+}

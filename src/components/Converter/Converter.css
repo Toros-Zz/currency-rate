@@ -1,0 +1,32 @@
+.Converter {
+  margin-top: 64px;
+
+  background-color: #fff;
+
+  border: 1px solid grey;
+
+  width: 700px;
+  height: 500px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.Converter__inputs {
+  flex-grow: 1;
+  padding: 64px;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-between;
+}
+
+.Converter__inputs:first-of-type {
+  border-right: 1px solid gold;
+}
+
+.select {
+  background-color: rgb(185, 183, 183);
+
+  border: solid 1px rgb(95, 95, 95);
+}
