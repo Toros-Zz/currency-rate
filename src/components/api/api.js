@@ -1,6 +1,7 @@
 import axios from "axios";
 // https://apilayer.com/marketplace/exchangerates_data-api#documentation-tab
 
+const apikey = "PrcJl2cquT8b6PYWmRz99Nz8PGrcsg5r";
 
 export const getData = async (endpoint) => {
   try {
@@ -8,7 +9,7 @@ export const getData = async (endpoint) => {
       `https://api.apilayer.com/exchangerates_data/${endpoint}`,
       {
         headers: {
-          apikey: "PrcJl2cquT8b6PYWmRz99Nz8PGrcsg5r",
+          apikey,
         },
       }
     );
