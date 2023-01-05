@@ -8,7 +8,7 @@ export const getData = async (endpoint) => {
       `https://api.apilayer.com/exchangerates_data/${endpoint}`,
       {
         headers: {
-          // apikey: "PrcJl2cquT8b6PYWmRz99Nz8PGrcsg5r",
+          apikey: "PrcJl2cquT8b6PYWmRz99Nz8PGrcsg5r",
         },
       }
     );
